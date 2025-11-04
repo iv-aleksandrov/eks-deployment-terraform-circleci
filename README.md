@@ -139,4 +139,6 @@ Configure the following environment variables in CircleCI project settings:
 
 ## Possible improvements
 - Configure an additional pipeline to deploy an application to the existing EKS cluster, so that the operational purpouse of the infrastructure can be demonstrated
-- 
+- Automate AWS access keys rotation
+- Implement better monitoring
+- Implement multiple environment structure (dev, staging, prod)
