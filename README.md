@@ -84,7 +84,7 @@ The deployment user requires the following AWS managed policies:
 ```
 
 ### 2. CircleCI Environment Variables
-Configure the following environment variables in CircleCI project settings:
+Connect CircleCI to GitHub account and repository. Configure the following environment variables in CircleCI project settings:
 - `AWS_ACCESS_KEY_ID`: AWS programmatic access key
 - `AWS_SECRET_ACCESS_KEY`: AWS secret access key
 - `TF_CLOUD_ORGANIZATION`: Terraform Cloud organization name
